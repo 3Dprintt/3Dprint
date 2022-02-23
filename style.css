@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+nav{
+    overflow: hidden;
+    background-color:gainsboro;
+    position: fixed;
+    width: 100%;
+    opacity: 0,9;
+}
+header li {
+    float: right;
+    font-size: 1,2em;
+}
+header li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+}
+
+#logo {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    float: left;
+}
+
+#acceuil{
+    padding-top: 60px;
+    background: url(accueil.webp) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 799px;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 6em;
+    margin-top: 100px;
+    text-shadow: 1px 3px 2px black;
+}
+#trait1{
+    height: 1px;
+    width: 25%;
+    margin: -3px auto;
+    background-color: black;
+}
+h3{
+    text-align: center;
+    color: white;
+    font-size: 3em;
+}
+
+#entreprise{
+    background-color:gainsboro;
+    padding: 10px 0px 275px 0;
+}
+
+#texteacceuil{
+    padding: 0px 20%;
+    justify-content: center;
+    text-align: center;
+}
+
+#Prestations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10%;
+    text-align: center;
+    height: 200px;
+}
+
+.imagesServices h4{
+    font-family: 'montserrat';
+    font-size: 1.8em;
+    margin: 15px;
+    font-weight: 200;
+    border-top: 25px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagesServices img{
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 4px 2px black;
+}
+
+#Nosservices{
+    height: 800px;
+    background-color: white;
+    padding: 1px 2%;
+
+}
+
+#Nosservices{
+    padding-top: 60px;
+}
+
+#Montage{
+    background: url(logo\ assemblage.jpg);
+    background-size:200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    text-align: center;
+}
+#Cours{
+    background: url(79641527-vector-internet-learning-enseignement-logo-de-cours-en-ligne-icône.jpg);
+    background-size:210px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+#Reprise{
+    background: url(reprise_logo_mono_on_white_668x180_Logo.jpg);
+    background-size:300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    text-align: center;
+}
+#garantie{
+    background: url(garantie-logo.png);
+    background-size:220px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#Nosservices li{
+    margin: 65px 100px 0 100px;
+    height: 226px;
+    width: 35%;
+    max-width: 550px;
+    float: left;
+    box-shadow: 6px 6px 28px -1px black;
+}
+
+#Nosservices p{
+    height: 200px;
+    width: 180px;
+    float: center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+form{
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+input, textarea , button {
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px;
+    font-size: 1.2em;
+    font-family: 'montserrat';
+    border-radius: 8px;
+}
+textarea{
+    height: 120px;
+}
+
+button{
+    font-size: 1.5em;
+    background-color: white;
+}
+
+button:hover {
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+#trait2{
+    height: 1px;
+    width: 75%;
+    background-color: white;
+    margin: 60px auto;
+}
+#Mention{
+    background-color:gainsboro;
+    padding: 10px 0px 15px 0;
+}
+#Mention h2{
+    font-family: 'montserrat';
+    text-align: center;
+    height: 60px;
+}
+
+pre{
+    text-align: center;
+    font-family: 'montserrat';
+    font-size: 10px;
+    height: 700px;
+}
