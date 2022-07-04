@@ -116,6 +116,7 @@ h3{
     width: 200px;
     border-radius: 10px;
     box-shadow: 3px 4px 4px 2px black;
+    position: center;
 }
 
 #Nosservices{
@@ -181,7 +182,7 @@ h3{
 footer{
     background-color: black;
     color: white;
-    padding: 20px 0 10px 0;
+    padding: 20px 0 5px 0;
     text-align: center;
 }
 form{
@@ -234,4 +235,13 @@ pre{
     font-family: 'montserrat';
     font-size: 10px;
     height: 700px;
+}
+h4{
+    text-align: center;
+    color: white;
+    
+}
+
+pre{
+    font-size: 20px;
 }
